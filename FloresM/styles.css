@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Doto:wght@100..900&family=Edu+QLD+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2bfea;
+    font-family: 'Sour Gummy', serif;
+    text-align: center;
+    position: relative;
+}
+
+.text-top {
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+canvas {
+    display: block;
+}
+
+.text-bottom {
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.countdown {
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.date {
+    color: #5a189a;
+}
+
+@media (max-width: 768px) {
+    text-top, .text-bottom {
+        font-size: 24px;
+    }
+
+    .countdown {
+        font-size: 20px;
+    }
+}
