@@ -67,7 +67,7 @@ function startCountdown() {
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
         const dateText = `<span class="date">${days}d ${hours}h ${minutes}m ${seconds}s</span>`;
-        countdownElement.innerHTML = `Faltan ${dateText} para vernos el lunes a las 9:35pm`;
+        countdownElement.innerHTML = `Falta ${dateText} para vernos el lunes a las 9:35pm`;
     }
 
     updateCountdown();
