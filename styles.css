@@ -47,7 +47,7 @@ canvas {
     color: #ffffff;
     font-size: 32px;
     position: absolute;
-    bottom: 15%;
+    bottom: 19%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -63,7 +63,6 @@ canvas {
 .date {
     color: #5a189a;
 }
-
 @media (max-width: 768px) {
     text-top, .text-bottom {
         font-size: 24px;
